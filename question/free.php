@@ -19,9 +19,6 @@ session_start();
 <p id="paragraph"> Create Beautiful typeforms</p>
 
 
-   
-
-
 
 
     <div id="buttoncontainer">
@@ -55,15 +52,15 @@ session_start();
                                             <div class="block">
                                             <input type="reset" name="reset" id="reset">
                                             </div>
-<button id="submit">Save</button>                                          <h3  id="success">1st</h3><span>question</span>
-                                        </form>
-                </div>
+                                            <button id="submit">Save</button>    
+                                            <h3  id="success">1st</h3><span>question</span>
+                                            </form>
+                                            
+<button id="myBtn">Redirect</button>
+                                            
+              </div>
                 
-
-
-                
-
-                
+   
 
 
 
@@ -72,9 +69,7 @@ session_start();
     
    
     <?php 
-
-
-          if (isset($_POST['logout-btn'])) 
+            if (isset($_POST['logout-btn'])) 
           {
             session_destroy();  
             header('location:../../../../../xampp/htdocs/PROJECT PHP/sign-in.php');

@@ -36,7 +36,10 @@ function call() {
    //i++;
 
   
-
+var btn = document.getElementById('myBtn');
+btn.addEventListener('click', function() {
+  document.location.href = 'newview.php';
+});
 
 
 
@@ -95,6 +98,22 @@ function clearInput() {
 
 
 
+
+
+$("#preview").submit(function() {
+
+    $.ajax({
+      type: 'POST',
+      url: 'newview.php',
+      //data: $('.myform').serialize(),
+      success: function() {
+        console.log("i m here");
+      }, //You missed this
+      error: function() {
+        console.log("Signup was unsuccessful");
+      }
+    });
+   }); 
 */
 
 });
