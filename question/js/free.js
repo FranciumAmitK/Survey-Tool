@@ -38,7 +38,7 @@ function call() {
   
 var btn = document.getElementById('myBtn');
 btn.addEventListener('click', function() {
-  document.location.href = 'newview.php';
+  document.location.href = 'response.php';
 });
 
 
