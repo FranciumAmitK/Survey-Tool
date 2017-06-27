@@ -1,0 +1,139 @@
+body{
+		background-color: #820406;
+	}
+	#corner{
+		position: relative;
+		left:360px;
+		top: 90px;
+		padding: 16px;
+		background:#F4F4F4;
+		height: 390px;
+		width: 800px;
+		border-radius: 16px 70px;
+		
+	}
+	ul{
+		position: fixed;
+		padding: 0;
+		margin: 0;
+		width: 10%;
+		height: 100%;
+		left: 0px;
+		top: 0px;
+		
+		background-color:#000000;
+		list-style-type: none;
+		overflow: auto;
+	}
+	
+	li a{
+		font-family: calibri light;
+		padding: 26px;
+		text-align: center;
+		color: aliceblue;
+		display: block;
+		
+	}
+	li a:hover{
+		background-color: #392929;
+	}
+	
+	#uname {
+		color:#000000;
+		font-family: calibri light;
+		position: relative;
+		padding: 6px 21px;
+		left: 561px;
+		bottom: 180px;
+	}
+	#lname {
+		color:#000000;
+		font-family: calibri light;
+		position: relative;
+		padding: 6px;
+		left: 561px;
+		bottom: 180px;
+	}
+	
+	#lpass{
+		
+		color:#000000;
+		font-family: calibri light;
+		position: relative;
+		padding: 6px;
+		left: 561px;
+		bottom: 150px;
+	}
+	#password{
+		position: relative;
+		padding: 6px;
+		left:570px;
+		bottom: 150px;
+		
+	}
+	
+	#home{
+		position: fixed;
+		width: 77px;
+		padding: 30px;
+		display: none;
+	}
+	#contact{
+		position: fixed;
+		width: 77px;
+		top: 150px;
+		padding: 30px;
+		display: none;
+	}
+	#sign-up{
+		position: fixed;
+		 background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+		
+		left: 800px;
+		top:400px;
+		font-family: calibri light;
+		
+	}
+	#login{
+		 background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+		
+		
+		position: fixed;
+		left: 600px;
+        top: 400px;
+		font-family: calibri light;
+		
+	}
+	#uname-error{
+		position: fixed;
+		left: 850px;
+		top: 280px;
+		font-family: calibri light;
+		font-size: 15px;
+	}
+	#password-error{
+		position: fixed;
+		left: 850px;
+		top: 350px;
+		font-family: calibri light;
+		font-size: 15px;
+	}

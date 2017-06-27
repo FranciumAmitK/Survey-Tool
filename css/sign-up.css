@@ -1,0 +1,301 @@
+	body{
+		background-image: url(back.jpg);
+		position: fixed;
+		
+		
+	}
+	#uname{		
+		    position: relative;
+    left: 164px;
+    top: -5px;
+    color: white;
+    font-family: calibri light;
+	}
+	#u-box{
+		    padding: 6px;
+    position: relative;
+    left: 803px;
+    top: -36px;
+	}
+	
+	#container{
+	    position: fixed;
+    left: 219px;
+    top: 46px;
+    top: 85px;
+    padding: 16px;
+    height: 445px;
+    width: 1026px;
+    border-radius: 25px 80px;
+    background: linear-gradient(#5789cc,#03295C);
+    box-shadow: 5px 2px 20px #BFBEBE;
+	}
+	ul{
+		position: fixed;
+	    top: 0px;
+		left: 0px;
+ 	    height: 100%;
+		width: 9%;
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+		background-color:#000000;
+		box-shadow: 10px 1px 60px #BFBEBE;
+	}
+	li a{
+		padding: 25px;
+		font-family: calibri light;
+		text-align: center;
+		display: block;
+		color: aliceblue;
+		
+	}
+	li a:hover{
+		background-color: #533939;
+	}
+	
+	#npassword{
+		
+		    position: relative;
+    left: 650px;
+    display: block;
+    top: 53px;
+    color: white;
+    font-family: calibri light;
+	}
+	#password{
+	    padding: 6px;
+    position: relative;
+    left: 800px;
+    top: 15px;
+	}
+	#cpassword{
+		
+		    position: relative;
+    left: 653px;
+    display: block;
+    top: 55px;
+    color: white;
+    font-family: calibri light;
+	}
+	#cnfpassword{
+		    padding: 6px;
+    position: relative;
+    left: 800px;
+    top: 16px;
+	}
+	#back{
+		background-color: #4CAF50;
+    border: none;
+    color: white;
+		padding: 5px 41px 5px 41px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+		position: fixed;
+		left: 500px;
+		top: 400px;
+		box-shadow: 1px 10px 20px #625555;
+
+		font-family: calibri light;
+	}
+	#submit{
+	    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 41px 5px 41px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left: 500px;
+    top: 63px;
+    box-shadow: 1px 10px 20px #625555;
+    font-family: calibri light;
+	}
+	#home{
+		position: fixed;
+		width: 62px;
+		padding: 30px;
+		display: none;
+	}
+	#contact{
+		position: fixed;
+		width: 62px;
+		top: 150px;
+		padding: 30px;
+		display: none;
+	}
+    #cnfpassword-error{
+		position: fixed;
+		left: 700px;
+		top: 207px;
+		
+		font-family: calibri light;
+		font-size: 12px;
+	}
+	#password-error{
+		position: fixed;
+		left: 700px;
+		top: 160px;
+		
+		font-family: calibri light;
+		font-size: 12px;
+	}
+	#u-box-error{
+		position: fixed;
+		left: 700px;
+		top: 110px;
+		font-family: calibri light;
+		font-size: 12px;
+		
+	}
+	#fname{		
+		    position: relative;
+    left: 51px;
+    top: 42px;
+    font-family: calibri light;
+	}
+	#lname{
+		
+	    position: relative;
+    left: 50px;
+    display: block;
+    top: 71px;
+    font-family: calibri light;
+	}
+	#f-box{
+		    padding: 6px;
+    position: relative;
+    left: 265px;
+    top: 18px;	
+	}
+	#l-box{
+	    padding: 6px;
+    position: relative;
+    left: 266px;
+    top: 31px;
+	}
+	#male{		
+		    position: relative;
+    left: 89px;
+    top: 84px;
+    font-family: calibri light;
+	}
+	#female {		
+		    position: relative;
+    left: 140px;
+    top: 83px;
+    font-family: calibri light;
+	}
+	#radio1{
+		    position: relative;
+    left: 60px;
+    top: 105px;
+	}
+	#radio2{
+		    position: relative;
+    left: 100px;
+    top: 106px;
+	}
+	#gender{
+	    position: relative;
+    font-family: calibri light;
+    left: -275px;
+    top: 92px;
+		
+	}
+	
+#next{
+		background-color: #4CAF50;
+    border: none;
+    color: white;
+		padding: 5px 41px 5px 41px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+		position: fixed;
+		left: 500px;
+		top: 450px;
+				box-shadow: 1px 10px 20px #625555;
+
+		font-family: calibri light;
+		
+		
+		
+	}
+
+#eid{
+	    position: relative;
+    left: -133px;
+    top: 156px;
+    font-family: calibri light;
+		
+	}
+	#phone{
+		    position: relative;
+    left: -134px;
+    top: 177px;
+    font-family: calibri light;
+		
+	}
+	#p-box{
+		    position: relative;
+    left: -30px;
+    top: 181px;
+    padding: 6px;
+	}
+	#e-box{
+		    position: relative;
+    left: 268px;
+    top: 121px;
+    padding: 6px;
+		
+	}
+
+	#e-box-error{
+		position: fixed;
+		left: 700px;
+		top: 350px;
+		
+		font-family: calibri light;
+		font-size: 12px;
+	}
+	#p-box-error{
+		position: fixed;
+		left: 700px;
+		top: 396px;
+		font-family: calibri light;
+		font-size: 12px;
+	}
+	#l-box-error{
+		position: fixed;
+		left: 700px;
+		top: 155px;
+		font-family: calibri light;
+		font-size: 12px;
+	}
+	#f-box-error{
+		position: fixed;
+		left: 700px;
+		top: 105px;
+		font-family: calibri light;
+		font-size: 12px;
+	}
+	#gender-error{
+		position: fixed;
+		left: 700px;
+		top: 230px;
+		font-family: calibri light;
+		font-size: 12px;
+    }
+	
