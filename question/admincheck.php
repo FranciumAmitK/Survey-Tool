@@ -1,8 +1,10 @@
-
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/check.css">
+<link rel="stylesheet" href="css/admincheck.css">
 
 	<title></title>
 </head>
@@ -15,8 +17,8 @@
 
     </form>
     </div>
-    <form class="form" action="showresponse.php"  method="post">
-  <span>  Click the question to check responses:</span> <br> <input type="number" name="qnum" id="input" /><br />
+    <form class="form" action="adminshowresponse.php"  method="post">
+    <span>  Click the question to check responses:</span> <br> <input type="number" name="qnum" id="input" /><br />
     <input type="submit" name="submit" value="Submit" id="submit">
     </form>
   

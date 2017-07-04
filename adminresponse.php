@@ -67,7 +67,7 @@ $i = $qnum;
 ?>
 
 
-         <button id="showresponse" onclick="location.href='question/check.php'">Show response</button>
+         <button id="showresponse" onclick="location.href='question/admincheck.php'">Show response</button>
          <button id="showuser" onclick="location.href='showuser.php'">See Users</button>
 
 
