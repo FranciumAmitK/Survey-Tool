@@ -7,7 +7,22 @@ $("#homebutton").click( function() {
 //  var boxWidth = $("#container").width();
 
 $("#start").click(function(){
-	   location.href = "question/free.php";
+     $("#container").hide(500);
+          $(".main").fadeIn(2000);
+                    $("#p1").fadeOut(500);
+          $("#p2").fadeIn(2000);
+                    $(".free").fadeIn(2000);
+                    $(".freedata").fadeIn(2000);
+                    $(".primedata").fadeIn(2000);
+                    $("#freebackground").fadeIn(2000);
+                    $("#primebackground").fadeIn(2000);
+
+
+
+
+
+
+	  // location.href = "question/free.php";
     return false;
 });
 
@@ -44,4 +59,7 @@ $("#submit").submit(function() {
 $("#myform :input").each( function() {
      $(this).val('');
   });*/
+  $("#freeuserbutton").click( function() {
+   location.href = "question/free.php";
+  });
 });

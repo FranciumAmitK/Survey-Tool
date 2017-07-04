@@ -70,7 +70,6 @@
         
         if($password==$cnfpassword)
         {
-            
         	$query= "select * from signup WHERE username='$username' ";
             $query_run = mysqli_query($con,$query);
             if($query_run)
@@ -82,7 +81,7 @@
             	else
         	    {
                   
-        		    $query = "insert into signup values('','$firstname','$lastname','$email','$phonenumber','$username','$password')";
+        		    $query = "insert into signup values('','user','$firstname','$lastname','$email','$phonenumber','$username','$password')";
         		    $query_run = mysqli_query($con,$query);
         		    if($query_run)
         		        {

@@ -7,66 +7,25 @@ session_start();
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
-    <script src="js/homepage.js"> </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js" type="text/javascript"></script>
 
 
-<link rel="stylesheet" href="css/homepage.css">
+<link rel="stylesheet" href="css/adminhomepage.css">
 
   <title></title>
 </head>
 <body class="bg">
-<span class="paragraph" id="p1"> Create Beautiful typeforms</span>
-<h6 class="paragraph" id="p2"> How you want to continue..</h6>
-
-
- <div id="freebackground"></div>
- <span class="freedata">  <ul>
-     <li>Limited Questions</li>
-          <li>Limited resposnes</li>
-     <li>Can't edit questions</li>
-     
-   </ul>
-    </span>
- <div id="primebackground"></div>
- <span class="primedata">  <ul>
-     <li>Insert Upto 20 questions </li>
-          <li>Get 100 Responses</li>
-     <li>Add / Remove Options</li>
-          <li>Draggable </li>
-     <li>Upload photos in questions</li>
-         
-   </ul>
-    </span>
-    
-  <div class="main" >
-  <div class="free" id="freediv">
-    <div><a id="freeuserbutton" title="FREE USER"></a></div>
-  </div>
-  <div class="free" id="primediv">
-    <div><a id="primeuserbutton" title="PRIME USER"></a></div>
-  </div>
-  </div>
-   <div id="container">
-        
-           
-           <center><h1 id="heading1">WELCOME </h1></center>
-           <input type="button" name="getstarted" value="GET_STARTED" id="start">  
-           <button id="showresponse" onclick="location.href='question/userresponse.php'">SHOW RESPONSES</button>
-           <button id="preview" onclick="location.href='question/response.php'">PREVIEW FORM</button>
-
-
-
-   </div>
-
 
 
 
     <div id="buttoncontainer">
     <button id="username"><?php echo $_SESSION['username'];?></button>
-    <button id="homebutton">HOME</button>     
+    <button id="homebutton" onclick="location.href='adminhomepage.php'">HOME</button>     
     <form id="myform" method="post">
     <input type="submit" name="logout-btn" value="LOGOUT" id="logout">
+    <input type="button" onclick="location.href='showuser.php'" name="show " value="SHOW USER INFO" id="show">
+    <p >Easily handle all user data Right from a click .....</p>
+
     </form>
     </div>
      
@@ -103,7 +62,7 @@ session_start();
 
 
 
-
+   
 
 
 
@@ -118,6 +77,7 @@ session_start();
             session_destroy();  
             header('location:sign-in.php');
            }
+        
      ?>
 
 

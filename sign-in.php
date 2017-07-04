@@ -1,5 +1,5 @@
 <?php
-session_start();
+    session_start();
     require "db/config.php";
 
    ?>
@@ -32,21 +32,39 @@ session_start();
 	<label for="password" id="lpass" ><b>Password</b></label>
 	   <input type="password" id="password" name="password" placeholder="enter the Password" required/>
 	<input type="submit" id="login" value="LOGIN" name="login_btn">  
-
 </form>
+
+
+
 <?php
     if (isset($_POST['login_btn'])) 
     {
     	$username = $_POST['username'];
         $password = $_POST['password'];
         $query="select * from signup WHERE username='$username' AND password='$password'";
-
+        
         $query_run = mysqli_query($con,$query);
         if(mysqli_num_rows($query_run)>0)
         {
-             $_SESSION['username']=$username;
-             header('location:homepage.php');
 
+             $_SESSION['username']=$username;
+             $queryq = "select ID from signup WHERE username='$username' AND password='$password'";
+             $result = mysqli_query($con,$queryq);
+             $row = mysqli_fetch_array($result);
+             $_SESSION['ID']=$row['ID'];
+
+             $queryqq = "select role from signup WHERE username='$username' AND password='$password'";
+             $resultqq = mysqli_query($con,$queryqq);
+             $rowqq = mysqli_fetch_array($resultqq);
+            
+             $_SESSION['role']=$rowqq['role'];
+             if ($_SESSION['role'] == 'admin') {
+                
+             header('location:adminhomepage.php');
+             }
+             else{
+             header('location:homepage.php');
+             }
 
         }
         else

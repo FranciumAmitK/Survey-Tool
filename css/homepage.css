@@ -6,27 +6,43 @@
     background-color: #4CAF78;
     border: none;
     color: white;
+      font-family: "calibri light", Helvetica, Arial, sans-serif;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     top: -40px;
+    width: 90px;
 	}
 	#logout:hover{
          background-color: ghostwhite;
 		 color: black;
 
 	}
+
 	#container{
         background-color: #4CAF78;
     position: relative;
-    top: 41px;
+    top: 42px;
     opacity: 0.8;
     height: 498px;
     width: 896px;
     left: 232px;
 
     	}
+        #freeuser{
+         background-color: #4CAF78;
+    position: relative;
+    top: 41px;
+    opacity: 0.8;
+    height: 529px;
+    width: 467px;
+    display: none;
+    left: 68px;
+        }
+       
+   
     	#headcontainer{
         color: #d2cdcd;
     position: relative;
@@ -50,6 +66,8 @@
     .bg{
  
 		background-image: url(imgs/background.jpg);  
+        max-height: 1px;
+        max-width: 400px;
 	 	  }
     
 
@@ -60,7 +78,7 @@
     cursor: pointer;
     padding: 19px 42px;
     position: relative;
-    left: 388px;
+    left: 178px;
     top: 300px;
     font-family: Letter Gothic Std;
     font-weight: 800;
@@ -73,6 +91,44 @@
 		     font-weight: 800;
 
     }
+    #preview{
+       border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    padding: 19px 42px;
+    position: relative;
+    left: 308px;
+    top: 300px;
+    font-family: Letter Gothic Std;
+    font-weight: 800;
+    border-radius: 0px 68px;  
+    }
+    #preview:hover{
+      background-color: ghostwhite;
+     color: black;
+     font-family: Letter Gothic Std; 
+         font-weight: 800;
+    }
+    #showresponse{
+       border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    padding: 19px 42px;
+    position: relative;
+    left: 251px;
+    top: 300px;
+    font-family: Letter Gothic Std;
+    font-weight: 800;
+    border-radius: 0px 68px;  
+    }
+    #showresponse:hover{
+      background-color: ghostwhite;
+     color: black;
+     font-family: Letter Gothic Std; 
+         font-weight: 800;
+    }
 
 #username{
 	    position: relative;
@@ -81,22 +137,17 @@
     top: 1px;
     border: none;
     color: white;
+      font-family: "calibri light", Helvetica, Arial, sans-serif;
+
     background-color: #4CAF78;
 
 }
 
-#paragraph{
-	    position: absolute;
-    top: 127px;
-    color: white;
-    font-family: Pristina;
-    left: 262px;
-    font-size: 92px;
-}
+
 
 #buttoncontainer{
 	    background-color: black;
-    top:  2px;
+    top:  0px;
     position: fixed;
     width: 1366px;
     right: 8px;
@@ -108,10 +159,17 @@
     top: 1px;
     left: 940px;
     padding: 12px 16px;
+      font-family: "calibri light", Helvetica, Arial, sans-serif;
+
     background-color: #4CAF78;
     color: white;
     cursor: pointer;
 
+}
+#homebutton:hover{
+   background-color: ghostwhite;
+     color: black;
+ 
 }
 
 .optionbox{
@@ -147,15 +205,6 @@
     display: block;
     position: relative;
 }
-input {
-    width: 50%;
-    display: inline-block;
-}
-span {
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: underline;
-}
 
 #freequestions{
 	    background-color: #069;
@@ -184,3 +233,214 @@ span {
     left: 175px;
     position: relative;	
 }
+#p1{
+position: fixed;
+    top: 127px;
+    color: white;
+    font-family: Pristina;
+    left: 262px;
+    font-size: 92px;
+   
+}
+#p2{
+    position: fixed;
+    top: -85px;
+    color: white;
+    font-family: Pristina;
+    left: 262px;
+    font-size: 92px;
+    display: none;
+    
+}
+
+   .free {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+  .free > div {
+    position: relative;
+    width: 160px;
+    height: 50px;
+    margin: 0 15px;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px; }
+    .free > div > a {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      -ms-transform-style: preserve-3d;
+      -o-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      -webkit-transform: translateZ(-25px);
+      -moz-transform: translateZ(-25px);
+      -ms-transform: translateZ(-25px);
+      -o-transform: translateZ(-25px);
+      transform: translateZ(-25px);
+      -webkit-transition: -webkit-transform 0.25s;
+      -moz-transition: -moz-transform 0.25s;
+      transition: -webkit-transform 0.25s;
+      -o-transition: transform 0.25s;
+      transition: transform 0.25s;
+      transition: transform 0.25s, -webkit-transform 0.25s; }
+      .free > div > a::before, .free > div > a::after {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 0;
+        width: 160px;
+        height: 50px;
+        position: absolute;
+        border: 5px solid black;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        content: attr(title);
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex; }
+      #freeuserbutton::before {
+        background-color: #000;
+        color: #fff;
+        -webkit-transform: rotateY(0deg) translateZ(25px);
+        -moz-transform: rotateY(0deg) translateZ(25px);
+        -ms-transform: rotateY(0deg) translateZ(25px);
+        -o-transform: rotateY(0deg) translateZ(25px);
+        transform: rotateY(0deg) translateZ(25px); }
+         #primeuserbutton::before {
+        background-color: #000;
+        color: #fff;
+        -webkit-transform: rotateY(0deg) translateZ(25px);
+        -moz-transform: rotateY(0deg) translateZ(25px);
+        -ms-transform: rotateY(0deg) translateZ(25px);
+        -o-transform: rotateY(0deg) translateZ(25px);
+        transform: rotateY(0deg) translateZ(25px); }
+        
+      #freeuserbutton::after {
+        background-color: #fff;
+        border-color: #000;
+        color: #000;
+        -webkit-transform: rotateX(90deg) translateZ(25px);
+        -moz-transform: rotateX(90deg) translateZ(25px);
+        -ms-transform: rotateX(90deg) translateZ(25px);
+        -o-transform: rotateX(90deg) translateZ(25px);
+        transform: rotateX(90deg) translateZ(25px); }
+        #primeuserbutton::after {
+        background-color: #fff;
+        border-color: #000;
+        color: #000;
+        -webkit-transform: rotateX(90deg) translateZ(25px);
+        -moz-transform: rotateX(90deg) translateZ(25px);
+        -ms-transform: rotateX(90deg) translateZ(25px);
+        -o-transform: rotateX(90deg) translateZ(25px);
+        transform: rotateX(90deg) translateZ(25px); }
+
+      .free > div > a:hover {
+        -webkit-transform: translateZ(-25px) rotateX(-90deg);
+        -moz-transform: translateZ(-25px) rotateX(-90deg);
+        -ms-transform: translateZ(-25px) rotateX(-90deg);
+        -o-transform: translateZ(-25px) rotateX(-90deg);
+        transform: translateZ(-25px) rotateX(-90deg); }
+
+/* this is just icing */
+body {
+  font-family: "calibri light", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0; }
+
+.main {
+        top: 7px;
+
+    position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+ body, .main {
+  height: 100%; }
+
+#primediv{
+ position: relative;
+ left: 970px;
+ bottom: 31px;
+}
+
+
+#freediv{
+ position: relative;
+ top: 10px;
+left: 152px;
+}
+#freebackground{
+   background-color: #4CAF78;
+    position: absolute;
+    top: 70px;
+    display: none;
+    opacity: 0.8;
+    height: 500px;
+    width: 360px;
+    left: 78px;
+
+}
+#primebackground{
+           background-color: #4CAF78;
+    position: absolute;
+    top: 70px;
+    display: none;
+    opacity: 0.8;
+    height: 500px;
+    width: 360px;
+    left: 878px;
+}
+.freedata{
+         position: relative;
+    top: 400px;
+    left: 139px;
+    display: none;
+    }
+    .primedata{
+         position: relative;
+    top: 304px;
+    display: none;
+    left: 933px;
+    }
+    .free{
+        display: none;
+    }
+    #show{
+      
+    }

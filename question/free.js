@@ -36,7 +36,7 @@ function call() {
    //i++;
 
   
-var btn = document.getElementById('myBtn');
+var btn = document.getElementById('preview');
 btn.addEventListener('click', function() {
   document.location.href = 'response.php';
 });
@@ -63,14 +63,23 @@ btn.addEventListener('click', function() {
       url: 'freequestion.php',
       data: $('.myform').serialize(),
       success: function() {
-        console.log("Signup was successful");
-      }, //You missed this
+        console.log("Data Entered successfully");
+      }, //You missed this 
+      
       error: function() {
-        console.log("Signup was unsuccessful");
+        console.log("Cant send data");
       }
     });
   $('#reset').trigger('click');// trigger the click on second, and go on 
-   i++;
+   
+   if(i==3){
+        $("#submit").hide();
+        $("#preview").show();
+        
+   }
+   else{
+         i++;
+   }
          //  $('.myform').reset();
          //clearInput();
   }); 
@@ -80,7 +89,7 @@ btn.addEventListener('click', function() {
 
 $("#homebutton").click( function() { 
 	console.log('entered');
-    location.href = "../../../../../xampp/htdocs/PROJECT PHP/homepage.php";
+    location.href = "../../../../../PROJECT PHP/homepage.php";
     });
 
 

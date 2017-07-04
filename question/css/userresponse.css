@@ -1,0 +1,171 @@
+#container {
+ 
+}
+#buttoncontainer{
+        background-color: black;
+    top:  0px;
+    position: fixed;
+    width: 1366px;
+    right: 8px;
+    height: 42px;
+}
+#homebutton{
+           border: none;
+    position: relative;
+    top: 1px;
+    left: 940px;
+    padding: 12px 16px;
+      font-family: "calibri light", Helvetica, Arial, sans-serif;
+
+    background-color: #4CAF78;
+    color: white;
+    cursor: pointer;
+
+}
+
+#logout{    padding: 12.3px 15px;
+    position: relative;
+    left: 1281px;
+    background-color: #4CAF78;
+    border: none;
+    color: white;
+      font-family: "calibri light", Helvetica, Arial, sans-serif;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    top: -41px;
+    width: 90px;
+  }
+  #logout:hover{
+         background-color: ghostwhite;
+     color: black;
+
+  }
+    #container{
+        background-color: #4CAF78;
+    position: relative;
+    top: 42px;
+    opacity: 0.8;
+    height: 498px;
+    width: 896px;
+    left: 232px;
+
+        }
+
+#showresponse{
+    border: none;
+    font-size: 16px;
+    position: relative;
+    left: 638px;
+    top: 39px;
+    font-family: calibri light;
+    background: white;
+    padding: 16px;
+    border-radius: 22px 18px;
+        border: 2px solid black;
+
+}
+#showresponse:hover{
+	background-color: black;
+	color: white;
+	    border: 2px solid white;
+
+
+}
+.option{
+
+}
+#inputq{
+     color: white;
+    text-transform: uppercase;
+    font-family: 'calibri light', Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    position: relative;
+    left: 52px;
+    top: 21px;
+}
+span{
+	    font-size: 14px;
+    font-family: verdana;
+}
+#opt1{
+        position: relative;
+    left: 100px;
+    top: -36px;
+    font-family: calibri light;
+    font-size: 15px;
+}
+#op2{
+        position: relative;
+    left: 100px;
+    top: -36px;
+    font-family: calibri light;
+    font-size: 15px;
+}
+#opt3{
+        position: relative;
+    left: 100px;
+    top: -36px;
+    font-family: calibri light;
+    font-size: 15px;
+}
+#opt4{
+        position: relative;
+    left: 100px;
+    top: -36px;
+    font-family: calibri light;
+    font-size: 15px;
+}
+#showuser{
+        border: none;
+    font-size: 16px;
+    position: relative;
+    left: 238px;
+    top: 39px;
+    font-family: calibri light;
+    background: white;
+    padding: 16px;
+    border-radius: 22px 18px;
+    border: 2px solid black;
+}
+#submitbtn{
+    font-size: 21px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: calibri;
+    border-radius: 10px 20px;
+    padding: 19px;
+    position: relative;
+    left: 600px;
+    top: 208px;
+    cursor: pointer;
+
+  }
+#submitbtn:hover{
+  background-color: black;
+    color: white;
+  box-shadow: 6px 7px 20px #ffffff;
+}
+#para{
+    color: white;
+    font-family: calibri light;
+    position: absolute;
+    left: 865px;
+    top: 105px;
+    font-size: 24px;
+}
+h1{
+        color: white;
+    font-family: zentaiges;
+    font-size: 80px;
+    left: 472px;
+    position: absolute;
+    top: -46px;
+    font-weight: 100;
+}
+body{
+    background-color: #DDDDDD;
+}
